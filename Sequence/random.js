@@ -23,6 +23,8 @@ let average = sum / 5;
 console.log("Sum of number " + sum + " Average of number " + average);
 
 //unit conversion feet to inch
+const prompt = require('prompt-sync')();
+
 var feet = parseInt(prompt("Please enter feet:"));
 var inches = feet * 12;
 console.log(inches + " Inches");
@@ -32,7 +34,7 @@ let lengthFeet = 60;
 let breadthFeet = 40;
 let lengthMeters = lengthFeet * 0.3048; 
 let breadthMeters = breadthFeet * 0.3048;
-console.log("Plot size is " + lengthMeters + " meters x " + breadthMeters + " meters");
+console.log("Plot size is " + lengthMeters + " meters  " + breadthMeters + " meters");
 
 let numberOfPlots = 25;
 let area = numberOfPlots * lengthInMeters * breadthInMeters;

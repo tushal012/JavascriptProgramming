@@ -8,4 +8,4 @@ let number = Number(prompt("Enter a number : "));
         factorial = factorial * i;
     }
 
-    console.log("Factorial of " +number/n + factorial);
+    console.log("Factorial of " +number + factorial);
